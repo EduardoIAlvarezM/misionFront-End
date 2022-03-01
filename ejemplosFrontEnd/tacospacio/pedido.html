@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<meta name="viewport" content="width-device-width, initil-scale=1.0">
+	<title>TACOSPACIO PEDIDOS</title>
+</head>
+<body style="background-color:#000126">
+	<font color="white">
+	<h1>****REALIZA TU PEDIDO AHORA****</h1>
+	<form action="pedido.js">
+		<label for="Nombre">Escribe tu nombre</label><br>
+		<input type="text" id="nombre" name="nombre" placeholder="Tu nombre"><br><br>
+		<label for="mesa">Número de mesa (en el centro por arriba)</label><br>
+		<input type="number" id="mesa" name="mesa" placeholder="0"><br><br>
+		<!--Sección radio button-->
+		<p>¿Para comer aquí o para llevar?</p>
+		<input type="radio" id="aqui" name="aquiollevar" value="Aquí">
+		<label for="aqui">Aquí</type><br>
+		<input type="radio" id="llevar" name="aquiollevar" value="Llevar">
+		<label for="llevar">Para Llevar</label><br><br>
+		<!--Sección checkbox-->
+		<p>Elige tus tacoss</p>
+		<input type="checkbox" id="mercurio" name="mercurio" value="Mercurio">
+		<label for="mercurio">Mercurio</label>
+		<input type="number" id="cantmerc" name="cantmerc" placeholder="cantidad"><br>
+		<input type="checkbox" id="venus" name="venus" value="Venus">
+		<label for="venus">Venus</label>
+		<input type="number" id="cantven" name="cantven" placeholder="cantidad"><br>
+		<input type="checkbox" id="tierra" name="tierra" value="Tierra">
+		<label for="tierra">Tierra</label>
+		<input type="number" id="canttier" name="canttier" placeholder="cantidad"><br>
+		<input type="checkbox" id="marte" name="marte" value="Marte">
+		<label for="vmarte">Marte</label>
+		<input type="number" id="cantmart" name="cantmart" placeholder="cantidad"><br>
+		<input type="checkbox" id="jupiter" name="jupiter" value="Júpiter">
+		<label for="jupiter">Júpiter</label>
+		<input type="number" id="cantjup" name="cantjup" placeholder="cantidad"><br>
+		<input type="checkbox" id="saturno" name="saturno" value="Saturno">
+		<label for="saturno">Saturno</label>
+		<input type="number" id="cantsatu" name="cantsatu" placeholder="cantidad"><br>
+		<input type="checkbox" id="urano" name="urano" value="Urano">
+		<label for="urano">Urano</label>
+		<input type="number" id="canturan" name="canturan" placeholder="cantidad"><br>
+		<input type="checkbox" id="neptuno" name="neptuno" value="Neptuno">
+		<label for="neptuno">Neptuno</label>
+		<input type="number" id="cantnept" name="cantnept" placeholder="cantidad"><br>
+		<input type="checkbox" id="pluton" name="pluton" value="Plutón">
+		<label for="pluton">Plutón</label>
+		<input type="number" id="cantplut" name="cantplut" placeholder="cantidad"><br><br>
+		<!--Sección select-->
+		<p>¿Qué deseas tomar?</p>
+		<select name="bebida" id="bebida">
+			<option value="cocacoca">Coca-Coca</option>
+			<option value="janta">Janta</option>
+			<option value="spuerc">Spuerc</option>
+			<option value="sidramondet">Sidra Mondet</option>
+			<option value="buing">BuinG</option>
+			<option value="jomecs">Jomecs</option>
+			<option value="aguafruta">Agua de Fruta</option>
+			<option value="aguanatural">Agua Sin Sabor</option>
+		</select><br><br>
+		<input type="submit" value="Realiza tu orden ahora"><br><br>
+		<input type="reset" value="Vaciar Formulario">
+	</form>
+<br><br></font>
+</body>
+</html>
