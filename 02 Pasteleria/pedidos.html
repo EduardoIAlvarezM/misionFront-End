@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta=http-equiv="X-UA-Compatible" content="IE-Edge">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ChoCoCake Pastelería</title>
+	<link rel="stylesheet" href="css/style.css">
+	
+	<div class="div-1">
+		<h4><img src="./src/media.png" width="15%" alt="Redes Sociales"> Teléfono: 5500000000 / e-mail: chococake@chococake.com</h4>
+		<a class="texta" href="./index.html">INICIO /</a>
+		<a class="texta" href="./pedidos.html">HACER PEDIDO</a>
+	</div>
+
+	<table>
+		<tr>
+			<th><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8170bb23-d2d0-4a66-881f-ae86fdc45f55/df0w30f-3e37182f-d340-40e8-a6b5-f8482ce06f6a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgxNzBiYjIzLWQyZDAtNGE2Ni04ODFmLWFlODZmZGM0NWY1NVwvZGYwdzMwZi0zZTM3MTgyZi1kMzQwLTQwZTgtYTZiNS1mODQ4MmNlMDZmNmEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.gdibAf33ZjKiUnCMvTyMRn5qY9YURt8hff0vOw_UzZM" width="55%" alt="ChoCo Cake Logo"/></th>
+			<th><h1>ChoCo Cake Pastelería</h1></th>
+			<th><h2>Llena el formulario para realizar tu pedido</h2></th>
+		</tr>
+	</table>
+</head>
+<body>
+	<h3>Escribe  tus datos a continuación</h3>
+	<form>
+
+		<table class="tabla1" width="100%">
+			<tr>
+				<th><label for="name">Nombre</label></th>
+				<th><label for="direccion">Dirección</label></th>
+				<th><label for="numtel">Teléfono</label></th>
+				<th><label for="correo">Correo electrónico</label></th>
+				<th><label for="fechaped">Fecha de pedido</label></th>
+				<th><label for="fechaent">Fecha de entrega	</label></th>
+			</tr>
+			<tr>
+				<th><input type="text" id="nombre" name="nombre"></th>
+				<th><input type="text" id=direccion" name="direccion"></th>
+				<th><input type="tel" id="numtel" name="numtel"></th>
+				<th><input type="email" id="correo" name="correo"></th>
+				<th><input type="date" id="fechaped" name="fechaped"></th>
+				<th><input type="date" id="fechaent" name="fechaent"></th>
+			</tr>
+		</table>
+
+	<h3>Elige el pastel que deseas a continuación</h3>
+	<table class="tabla1" width="100%">
+		<tr>
+			<th>Sabores</th>
+			<th>Rellenos</th>
+			<th>Decorado</th>
+			<th>Total de personas</th>
+		</tr>
+		<tr>
+			<th><select name="sabor" id="sabor">
+				<option value="3leches">3 Leches</option>
+				<option value="chocolate">Chocolate</option>
+				<option value="nescafe">Nescafé</option>
+				<option value="chocoqueso">Chocoqueso</option>
+			</select></th>
+			<th><select name="relleno" id="relleno">
+				<option value="durazno">Durazno</option>
+				<option value="pinia">Piña</option>
+				<option value="gotchoc">Gotita de chocolate</option>
+				<option value="fresa">Fresa (sólo en temporada)</option>
+				<option value="nuez">Nuez (sólo en temporada)</option>
+			</select></th>
+			<th><select name="decorado" id="decorado">
+				<option value="infantil">Infantíl</option>
+				<option value="dama">Dama</option>
+				<option value="caballero">Caballero</option>
+				<option value="quince">XV años</option>
+				<option value="boda">Boda</option>
+				<option value="bautizo">Bautizo</option>
+				<option value="comunion">1ra Comunión</option>
+				<option value="bshower">Baby Shower</option>
+				<option value="especiales">Especiales (fondant, figuras de chocolate, etc.)</option>
+			</select></th>
+			<th><select>
+				<option value="ditre">10 a 30</option>
+				<option value="trecin">30 a 50</option>
+				<option value="cinset">50 a 70</option>
+				<option value="setcie">70 a 100</option>
+				<option value="cieccin">100 a 150</option>
+				<option value="ccindos">150 a 200</option>
+				<option value="masdos">Más de 200</option>
+			</select></th>
+		</tr>
+	</table>
+	<br><br>
+	<input class="button1" type="submit" value="Ingresar datos del pedido"><br><br>
+	<input class="button1" type="reset" value="Vaciar Formulario"><br><br>
+</form>
+</body>
+</html>

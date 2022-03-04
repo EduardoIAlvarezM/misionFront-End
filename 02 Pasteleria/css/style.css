@@ -1,0 +1,86 @@
+html, body
+{
+	height: 100%;
+	background-image: url(back.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-background-size: cover;
+	background-attachment: fixed;
+}
+
+div
+{
+	text-align: center;
+}
+
+.div-1
+{
+	background-color: #c73c24;
+	color: white;
+	text-align: right;	
+}
+
+h1
+{
+	text-align: center;
+	font-family: Laclede CAT, Arial, Sans-serif;
+	font-size: 3cm;
+	color: brown;
+}
+
+h2
+{
+	text-align: center;
+	font-family: Arial narrow, Arial, Sans-serif;
+	font-size: 1cm;
+	color: brown;
+}
+
+h3
+{
+	text-align: center;
+	font-family: Arial Narrow, Arial, Sans-serif;
+	font-size: 0.5cm;
+	color: brown
+}
+
+th
+{
+	text-align: left;
+}
+
+input
+{
+	background-color: #ffb3eb;
+	font-family: Arial Narrow, Arial, Sans-serif;
+	font-size: 0.7cm;
+	color: #ab007e;
+}
+
+.button1
+{
+	border-radius:12px;
+	border: 2px solid #ad0080;
+}
+
+.tabla1
+{
+	text-align: center;
+	border:7px solid #ffb3eb;
+	color: #ab007e;
+	font-size: 0.6cm;
+}
+
+select
+{
+	font-size: 15px;
+	padding: 2px 5px;
+	text-align: center;
+}
+
+.texta
+{
+	color: #ffb8ed;
+	border-bottom: 2px double #ffb8ed;*
+}
