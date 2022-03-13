@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta char="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width-=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Vacunación</title>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<h1>Vacunación</h1>
+			<input type="checkbox" id="menu-bar">
+			<label for="menu-bar"><img src="./src/health.ico" alt="Menú" width="10%"></label><br><br><br>
+			<nav class="menu">
+				<a href="https://www.datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico">Base de Datos</a>
+				<a href="https://www.unicef.org/mexico/educaci%C3%B3n-en-tiempos-de-covid-19">Educación</a>
+				<a href="https://www.eluniversal.com.mx/tag/covid-19">Noticias</a>
+				<a href="https://coronavirus.gob.mx/semaforo/">Regulación</a>
+				<form action="https://coronavirus.gob.mx/mitos-y-realidades/">
+					<input type="submit" class="button" value="Destructor de Mitos">
+				</form>
+			</nav>
+		</div>
+	</header><br><br><br><br>
+	<main>
+		<table>
+			<tr>
+				<th>
+					<img class="nurse01" src="./src/img1.png" alt="Enfermera1">
+					<h2>Combate los virus con Vacunas</h2>
+					<p>Detengamos esta pandemia exterminando el virus con una vacuna, no dejes que tú y tufamilia se infecten.</p><br><br>
+					<a href=""><img src="./src/scpred.ico" width="3%">Mejor protección</a>
+					<a href=""><img src="./src/scpred.ico" width="3%">Vacunas selectas</a>
+				<th>	
+			</tr>
+		</table>
+
+		<table>
+			<tr>
+				<th>
+					<p>Agenda tu vacuna</p>
+				</th>
+			</tr>
+			<tr>
+				<th><img src="./src/scpblue.ico" width="5%">Lugar<br>
+					<select id="lugar" name="lugar">
+						<option value="aguascalientes">Aguascalientes</option>
+						<option value="cdmx">Ciudad de México</option>
+						<option value="edomex">Estado de México</option>
+						<option value="monterrey">Monterrey</option>
+						<option value="morelos">Morelos</option>
+					</select>
+				</th>
+				<th><img src="./src/scpblue.ico" width="5%">Fecha<br>
+					<input type="date" id="fecha" name="fecha">
+				</th>
+				<th><img src="./src/scpblue.ico" width="5%">Vacuna<br>
+					<select id="vacuna" name="vacuna">
+						<option value="AstraZeneca">AstraZeneca</option>
+						<option value="Cansino">Cansino</option>
+						<option value="Johnson&Johnson">Johnson&Johnson</option>
+						<option value="Moderna">Moderna</option>
+						<option value="Sputnik V">Спутник V</option>
+					</select>
+					<input type="submit" class="button" value="INGRESAR">
+				</th>
+			</tr>
+		</table>
+		<img src="./src/vac.jpg" class="imgsep">
+		<table class="clasep">
+			<tr>
+				<th>
+					<h2>¿Por qué debería vacunarme?</h2>
+					<p>En orden de resolver todas las dudas acerca de recibir la vacuna contra COVID-19, identifica los siguientes 4 beneficios de la vacunación contra COVID-19:</p>
+				</th>
+			</tr>
+			<tr>
+				<th><img src="./src/04.jpg" width="17%"><br>
+					<p><h3>Minimiza la esparción de virus</h3>
+						Las vacunas has demostrado ser efectivas en prevenir a la gente de contraer infeccion por Coronavirus
+					</p>
+				</th>
+				<th><img src="./src/03.jpg" width="30%"><br>
+					<p><h3>Crea anticuerpos</h3>
+						La vacuna de COVID-19 ha demostrado que ayuda a poner en forma a la respuesta de los anticuerpos del sistema inmunológico
+					</p>
+				</th>
+				<th><img src="./src/02.jpg" width="30%">
+					<p><h3>Protege a la gente alrededor</h3>
+						El beneficio de la vacunación COVID-19 es que tambien puede ayudara proteger a la gente a nuestro rededor
+					</p>
+				</th>
+				<th><img src="./src/01.jpg" width="30%">
+					<p><h3>Crea grupo de inmunidad</h3>
+						La vacunación COVID-19 también es beneficioa al crear grupo de inmunidad o inmunidad de rebaño
+					</p>
+				</th>
+			<tr>
+		</table>
+
+		<table>
+			<tr>
+				<th>
+					<img src="./src/img2.png" class="nurse02" alt="Enfermera1">
+					<h2>Preparaciones antes de la vacuna</h2>
+					<p>El éxito de las vacunas está fuertemente influenciado por la fuerza del sistema inmune del cuerpo.Por lotanto, hay varias cosas que se pueden intentar hacer para que la vacuna COVID-19 trabaje:</p>
+					<div class="dropdown">
+						<button class="dropbtn"><img src="./src/scpred.ico" width="3%">Evita las bebidas alcohólicas</button>
+							<div class="dropdown-content">
+								<p>La profesora Sheena Cruickshank, inmunóloga de la Universidad de Manchester, explicó para el documental de la BBC The Truth About Boosting Your Immune System (La verdad sobre cómo mejorar tu sistema inmunológico) que es necesario “tener tu sistema inmunológico funcionando al máximo para tener una buena respuesta a la vacuna, así que si bebes la noche anterior o poco después, no te ayudará”.<br> Fuente: https://eldiariony.com/2021/05/21/por-que-no-debes-tomar-alcohol-despues-de-la-vacuna-contra-el-covid-19/</p>
+							</div>
+					</div><br>
+
+					<div class="dropdown">
+						<button class="dropbtn"><img src="./src/scpred.ico" width="3%">Evita el estrés</button>
+							<div class="dropdown-content">
+								<p>El estrés tiene un efecto profundo en el funcionamiento inmune. Es más, el estrés prolongadopuede incrementar la producción de cortisol y el estres oxidativo en el cuerpo</p>
+							</div>
+					</div><br>
+
+					<div class="dropdown">
+						<button class="dropbtn"><img src="./src/scpred.ico" width="3%">Come saludable</button>
+							<div class="dropdown-content">
+								<p>TEXTO</p>
+							</div>
+					</div><br>
+
+					<div class="dropdown">
+						<button class="dropbtn"><img src="./src/scpred.ico" width="3%">Duerme lo suficiente</button>
+							<div class="dropdown-content">
+								<p>TEXTO</p>
+							</div>
+					</div><br>
+
+					<div class="dropdown">
+						<button class="dropbtn"><img src="./src/scpred.ico" width="3%">Ejercicio o actividad física</button>
+							<div class="dropdown-content">
+								<p>TEXTO</p>
+							</div>
+					</div>
+
+				</th>
+			</tr>
+		</table>
+
+		<table>
+			<tr>
+				<th>
+					<img class="nurse01" src="./src/img3.png" alt="Enfermera1">
+					<h2>Contacto de emergencia</h2>
+					<p>Contacta mediante alguno de los enlaces abajo si tú o tu familia se siente mal y tienen síntomas parecidos al COVID-19, asegúrate de que tienes cuidado antes decontactarnos:</p><br><br>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<th>
+					<a href=""><img src="./src/call.ico" width="10%">Llamar<p>021.123.145.14</p></a>
+					<form action="#">
+						<input type="submit" class="botac" value="Llamar">
+					</form>
+				</th>
+				<th><a href=""><img src="./src/chat.ico" width="10%">Chatear<p>021.123.145.14</p></a>
+					<form action="#">
+						<input type="submit" class="botac" value="Chatear">
+					</form>
+				</th>
+				<th><a href=""><img src="./src/video.ico" width="10%">Video llamada<p>021.123.145.14</p></a>
+					<form action="#">
+							<input type="submit" class="botac" value="Video Llamada">
+						</form>
+				</th>
+				<th><a href=""><img src="./src/message.ico" width="10%">Mensaje<p>021.123.145.14</p></a>
+					<form action="#">
+						<input type="submit" class="botac" value="Mensaje">
+					</form>
+				</th>
+			</tr>
+		</table><br><br><br><br>
+
+
+	</main>
+	<footer class="tablefooter">
+		<table>
+			<tr>
+				<th>Vacunación</th>
+				<th>Acerca</th>
+				<th>Compañía</th>
+				<th>Soporte</th>
+			</tr>
+			<tr>
+				<th>Nuestra meta es ayudar al mundo a liberarse de la pandemia</th>
+				<th><a href="#">Acerca de nosotros</a></th>
+				<th><a href="#">¿Cómo trabajamos?</a></th>
+				<th><a href="#">FAQs</a></th>
+			</tr>
+			<tr>
+				<th></th>
+				<th><a href="#">Características</a></th>
+				<th><a href="#">Capital</a></th>
+				<th><a href="#">Centro de soporte</a></th>
+			</tr>
+			<tr>
+				<th></th>
+				<th><a href="#">Noticias y Blog</a></th>
+				<th><a href="#">Seguridad</a></th>
+				<th><a href="#">Contáctanos</a></th>
+			</tr>
+		</table><br>	<footer>
+
+
+		<table>
+			<tr>
+				<th>@2021 Vccination.</th>
+				<th><a>Terms & Agreements Privacy Policy</a></th>
+			</tr>
+		</table>
+	</footer>
+</body>
+</html>
