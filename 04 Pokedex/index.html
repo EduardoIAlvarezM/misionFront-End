@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pokédex</title>
+</head>
+<body>
+    <div id="pokedexcaja">
+	<input type="text" autocomplete="off" placeholder="#-Nombre del Pokémon" id="pokeName" name="pokeName">
+	<button onclick="fetchPokemon()">Buscar Pokemón</button>
+        <div id="pantalla"><img src="./src/masterpix.png" id="pokeImg" alt="Pokemón" width="100%"></div>
+        <div id="datos">
+		<!--p>Número</p>
+		<input type="text" id="numero" value="" disabled="true" hidden="true"-->
+		<p>Nombre</p>
+		<input type="text" id="nombre" disabled="true">
+	</div>
+    </div>
+    <div id="descripcion">
+	<p>Movimientos</p>
+	<input type="text" class="inputop" id="movimientos" disabled="true">
+    </div>
+</body>
+<footer>
+	<script src="./js/pokedex.js"></script>
+</footer>
+</html>
